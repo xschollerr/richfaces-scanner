@@ -1,0 +1,25 @@
+git remote add origin https://github.com/xschollerr/richfaces-scanner.git
+git branch -M main
+git push -u origin main# Binários compilados
+1rich
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Arquivos de resultado e logs
+resultados.txt
+*.log
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# Arquivos de IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Dependências
+/vendor/
